@@ -60,7 +60,25 @@
             font-weight: 500;
         }
 
+        a:hover {
+            cursor: pointer;
+            color: blue;
 
+        }
+
+        #site_nav span:hover {
+            color: #3367d6;
+            cursor: pointer;
+        }
+        #site_nav #special:hover {
+            color: blue;
+            border-bottom: 2px solid blue;
+            cursor: pointer;
+        }
+
+        #footer_left span> a:hover {
+            color: black;
+        }
 
         .header {
             width: 100vw;
@@ -248,7 +266,7 @@
             </div>
 
             <div id="footer_right">
-                <i style="color: blue; font-size: 14px; margin: 0 8px; line-height: 19px;"
+                <i style="color: blue; font-size: 14px; margin: 0 8px; align-self: center;"
                     class="fas fa-comment-alt"></i>
                 <select style="width: 180px;" name="countries" id="countries">
                     <option value="Italia">Italiano</option>
