@@ -107,11 +107,12 @@
             width: 100vw;
             display: flex;
             padding: 0 20px;
+            border-bottom: 1px solid rgba(151,151,151,0.5);
 
         }
 
         #site_nav span {
-            padding: 5px 0;
+            padding: 5px 0 10px 0;
             margin: 0 15px;
             font-size: 15px;
             font-weight: bold;
@@ -166,6 +167,7 @@
             background: #F5F5F5;
             display: flex;
             padding: 18px 122px;
+            border-top: 1px solid rgba(151,151,151,0.1)
 
 
         }
